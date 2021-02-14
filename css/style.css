@@ -1,2 +1,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Playfair+Display+SC&family=Rajdhani&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.navbar {
+    font-size: 35px;
+    letter-spacing: 0.2rem;
+    padding: 20px 0;
+    opacity: 0.9;
+    font-family: 'Playfair Display SC', serif;
+    background: rgb(211, 0, 253);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: blueviolet;
+    padding-left: 20px;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+    color:blue;
+}
