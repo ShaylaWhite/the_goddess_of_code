@@ -48,3 +48,20 @@ body {
     color: white;
     font-family: 'VT323', monospace;
 }
+
+.navbar .container  {
+    color: black;
+}
+.container {
+    width: auto;
+    max-width: 1000px;
+    padding: 0 15px;
+}
+
+.display-4 {
+    font-size: 75px;
+    color: #f88494;
+    border-bottom: 3px solid #grey;
+    font-family: 'Playfair Display SC', serif;
+
+}
