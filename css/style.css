@@ -1,29 +1,51 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Playfair+Display+SC&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Julius+Sans+One&family=Playfair+Display&family=VT323&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Playfair Display SC', serif;
 
 }
 
 .navbar {
-    font-size: 35px;
+    font-size: 20px;
+    opacity: 0.7;
     letter-spacing: 0.2rem;
     padding: 20px 0;
-    opacity: 0.9;
-    font-family: 'Playfair Display SC', serif;
-    background: rgb(211, 0, 253);
+    font-family: 'VT323', monospace;
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: blueviolet;
+    color: #f88494;
+    border-bottom: 3px solid #white;
+
+
     padding-left: 20px;
 }
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover{
-    color:blue;
+    color: white;
 }
+
+.heading-content { 
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    max-width: 100%
+
+}
+.heading-content h1{ 
+    font-size: 3em;
+    color: white;
+    font-family: 'VT323', monospace;
+}
+
+.heading-content h2{ 
+    font-size: 5em;
+    color: white;
+    font-family: 'VT323', monospace;
+}
+
